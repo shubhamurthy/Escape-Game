@@ -1,0 +1,21 @@
+html,body {
+  height:100%;
+  margin:0;
+  background-color:black;
+}
+
+.random {
+  position:absolute;
+  padding:10px;
+  background-color:black;
+  width:10%; 
+  height: 13%;
+}
+
+.count {color:aquamarine;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right:20px;
+  float: left;
+}

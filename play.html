@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+    <meta charset="utf-8">
+
+    <title>Escape Game - Play</title>
+
+  </head>
+  <body>
+    
+    <script src="game.js">
+ document.getElementById("round").innerHTML='Round: '+round;
+ document.getElementById("lives").innerHTML='Lives left: '+lives;</script>
+    
+    <div class='count' id="time"></div>
+    <div class='count' id="round">Round: 1</div>
+    <div class='count' id="lives">Lives left: 5</div>
+    
+    <div class="random" id="o1" onclick="alert('You found help and got to safety!');clearTimeout(ID);rl();"></div>
+    <div class="random" id="o2" onclick="alert('You bumped into the murderer! You lose.');clearTimeout(ID);rl();lifecount();"></div>
+    <div class="random" id="o3" onclick="alert('You thought it was the murderer but it was actually just a scarecrow')"></div>
+    <div class="random" id="o4" onclick="alert('You thought you found help but it was just a tree shaped like a human.')"></div>
+
+  </body>
+</html>

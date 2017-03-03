@@ -1,0 +1,10 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: crimson;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
